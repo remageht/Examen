@@ -113,25 +113,25 @@ int y = x + 3; // x + 3 — это выражение
 
 - **`if-else`**:
     
-    ```cpp
-	if (x > 0) {
-        printf("x положительное\n");
-    } else {
-        printf("x отрицательное или ноль\n");
-    }
 ```cpp
+	if (x > 0) {
+		printf("x положительное\n");
+	} else {
+		printf("x отрицательное или ноль\n");
+	}
+```
 - **`switch`**:
-	```cpp
-    switch (x) {
-        case 1:
-            printf("x равно 1\n");
-            break;
-        case 2:
-            printf("x равно 2\n");
-            break;
-        default:
-            printf("x не равно 1 или 2\n");
-    }
+```cpp
+	switch (x) {
+	case 1:
+	    printf("x равно 1\n");
+	    break;
+	case 2:
+	    printf("x равно 2\n");
+	    break;
+	default:
+	    printf("x не равно 1 или 2\n");
+	}
 ```
 
 ---
