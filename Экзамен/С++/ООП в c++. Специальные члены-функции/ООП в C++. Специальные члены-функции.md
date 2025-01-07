@@ -372,7 +372,7 @@ public:
 
 class Derived : public Base {
 public:
-    ~Derived() override {
-        // Освобождение ресурсов производного класса
+    ~Derived() override { // Освобождение ресурсов производного класса }
+};
     
 ```
